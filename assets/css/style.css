@@ -1,0 +1,89 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% Free To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+        line-height:30px;
+        font-size:16px;
+}
+
+section {
+    padding-bottom:80px;
+    padding-top:75px;
+}
+ 
+.hr-set {
+    border-top:2px solid #000;
+    max-width:250px;
+}
+
+h3 {
+    padding:15px 5px;
+    font-weight:900;
+    text-transform:uppercase;
+}
+h4 {
+    padding:15px 5px;
+    font-weight:900;
+    text-transform:uppercase;
+}
+.icon-custom-1 {
+    background-color: #fff;
+padding: 25px;
+border-radius: 10px;
+cursor:pointer;
+}
+.icon-custom-2 {
+      background-color: #49CD7D;
+padding: 25px;
+border-radius:50%;
+width:100px;
+height:100px;
+cursor:pointer;
+}
+.icon-custom-1:hover {
+     background-color: #000;
+}
+.icon-custom-2:hover {
+     background-color: #000;
+}
+.color-1 {
+    color: #49CD7D;
+}
+.color-2 {
+    color: #fff;
+}
+.p-top-row {
+    padding-top:40px;
+}
+
+  /* =============================================================
+   HOME SECTION STYLES -IN HOME / INDEX.HTML 
+ ============================================================ */
+#home-sec {
+      background: url(assets/img/head.jpg);
+    padding: 0;
+    background-size: cover;
+}
+
+    #home-sec .overlay {
+        background-color:rgba(20, 152, 152, 0.9);
+        min-height:350px;
+    }
+    #home-sec h1 {
+        padding-top:150px;
+        font-weight:900;
+    }
+#home-sec p {
+    padding:10px;
+}
